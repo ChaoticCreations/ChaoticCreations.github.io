@@ -3,7 +3,7 @@
 Website for Chaotic Creations project written in NodeJS with Vue.
 
 ## Installing Vue, CLI, and running locally
-Be sure to have NodeJS installed.
+You can install NodeJS [here](https://nodejs.org/en/download/).
 
 Install vue and cli
 
