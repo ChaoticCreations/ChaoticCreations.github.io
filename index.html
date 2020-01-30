@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vuetify Parallax Starter</title>
+  <title>Chaotic Creations</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel="stylesheet">
@@ -9,14 +9,11 @@
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
 </head>
 <body>
- <div id="app">
+ <div id="app" >
    <v-app dark>
-    <v-toolbar dense dark>
-
-    </v-toolbar>
-    <v-content  style="background: #272727; color: white">
+    <v-content  style="background: #272727; color: white;">
       <section>
-        <v-parallax src="assets/hero.jpg" height="500">
+        <v-parallax src="assets/hero.jpg" height="300">
           <v-layout
             column
             align-center
@@ -27,6 +24,7 @@
         </v-parallax>
       </section>
 
+
       <section>
         <v-layout
           column
@@ -36,94 +34,60 @@
         >
           <v-flex xs12 sm4 class="my-4">
             <div class="text-center">
-              <h2 class="headline">
-
-                <img src="assets/vuetify.png" alt="Vuetify.js" height="100">
-
+              <h2 class="headline" style="padding-left: 5rem;">
+                <img src="assets/ChaoticCreations.png" alt="Vuetify.js" height="200">
               </h2>
             </div>
           </v-flex>
+
           <v-flex xs12>
             <v-container grid-list-xl>
               <v-layout row wrap align-center>
-                <v-flex xs12 md4>
+                <v-flex xs12 md12>
                   <v-card dark flat class="transparent">
-                    <v-card-text class="text-center">
-                      <v-icon x-large color="red darken-1">mdi-palette</v-icon>
-                    </v-card-text>
-                    <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-center">Chaotic Creations</div>
-                    </v-card-title>
-                    <v-card-text>
-                      CS 426 Senior Project, Spring 2020 <br>
-                      University of Nevada, Reno <br>
-                      Computer Science and Engineering Department <br>
-                      </v-card-text>
-                  </v-card>
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-card dark flat class="transparent">
-                    <v-card-text class="text-center">
-                      <v-icon x-large color="red darken-1">mdi-flash</v-icon>
-                    </v-card-text>
-                    <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Instructors and Internal Advisors</div>
-                    </v-card-title>
-                    <v-card-text>
-                      <b>Instructors:</b> <br>
-                      Dr. Sergiu Dascalu <br>
-                      Devrin Lee <br>
-                      <br>
-
-                      <b>Advisor:</b> <br>
-                      Dr. Frederick Harris <br>
-
-                    </v-card-text>
-                  </v-card>
-                </v-flex>
-                <v-flex xs12 md4>
-                  <v-card dark flat class="transparent">
-                    <v-card-text class="text-center">
-                      <v-icon x-large color="red darken-1">mdi-wrench</v-icon>
-                    </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
                       <div class="headline text-center">Project Description</div>
                     </v-card-title>
                     <v-card-text>
                       Chaotic Creations is a Windows application aimed toward Dungeon Masters of the fifth edition of Dungeons and Dragons. It will include a dice roller visual, a database of random-selection tables, as well as tools for generating non-player characters, encounters, and terrains. The application will be built using Windows Presentation Foundation (WPF) with C# being used for the back end and XAML used for the front end. We will be using XML for database creation and management. The motivation for this project is to help Dungeon Masters be able to improvise during gameplay.
-
                     </v-card-text>
                   </v-card>
                 </v-flex>
               </v-layout>
             </v-container>
           </v-flex>
+
+
+          <v-flex xs12>
+            <v-container grid-list-xl>
+              <v-layout row wrap align-top>
+
+                  <v-card dark flat class="transparent">
+
+                    <v-card-text style="text-align: center;">
+                      CS 426 Senior Project, Spring 2020 <br>
+                      University of Nevada, Reno <br>
+                      Computer Science and Engineering Department <br>
+                      </v-card-text>
+                  </v-card>
+              </v-layout>
+            </v-container>
+          </v-flex>
         </v-layout>
       </section>
 
+
       <section>
-        <v-parallax src="assets/section.jpg" height="500">
-          <v-layout column align-center justify-center>
-            <div class="headline white--text mb-4 text-center">Random generations for every dungeon master</div>
-            <em>Let's create some chaos!</em>
-            <v-btn
-              class="mt-12"
-              color="blue lighten-2"
-              dark
-              large
-              href="/pre-made-themes"
-            >
-              Get Started
-            </v-btn>
-          </v-layout>
+        <v-parallax src="assets/section.jpg" height="400">
+
         </v-parallax>
       </section>
 
       <section>
         <v-container grid-list-xl>
           <v-layout row wrap justify-center class="my-12">
-            <v-flex xs12 sm4>
-              <v-card dark flat class="transparent">
+            <v-flex xs12 sm12>
+              <v-card dark flat class="transparent" style="text-align: center;">
                 <v-card-title primary-title class="layout justify-center">
                   <div class="headline">Project Resources</div>
                 </v-card-title>
@@ -133,42 +97,6 @@
                   [Technical reports, conference papers, and/or journal articles] <br><br>
                   [News and other information pertaining to your project topic or components (e.g., technology, hardware, etc.)] <br><br>
                 </v-card-text>
-              </v-card>
-            </v-flex>
-            <v-flex xs12 sm4 offset-sm1>
-              <v-card dark flat class="transparent">
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Contact us</div>
-                </v-card-title>
-                <v-card-text>
-                  [blah blah blah]
-                </v-card-text>
-                <v-list class="transparent">
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="blue--text text--lighten-2">mdi-phone</v-icon>
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title>777-867-5309</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item>
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="blue--text text--lighten-2">mdi-map-marker</v-icon>
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title>Chicago, US</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item>
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="blue--text text--lighten-2">mdi-email</v-icon>
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title>john@vuetifyjs.com</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-list>
               </v-card>
             </v-flex>
           </v-layout>
@@ -182,7 +110,7 @@
         <v-container grid-list-xl>
           <div class="headline text-center">Team 3</div>
           <v-layout row wrap justify-center class="my-12" style="font-size: 1.5rem">
-            <v-flex xs12 sm3 style="text-align: center">
+            <v-flex xs12 sm3 style="text-align: center; ">
               <v-card-text>
                 <v-avatar size="200">
                   <img src="assets/balthromaw.jpg" alt="Vuetify.js">
@@ -220,21 +148,27 @@
         <v-container grid-list-xl>
           <div class="headline text-center">Instructors</div>
           <v-layout row wrap justify-center class="my-12" style="font-size: 1.5rem">
-            <v-flex xs12 sm3 style="text-align: center">
+            <v-flex xs12 sm3 style="text-align: center; margin: 0 3rem;">
               <v-card-text>
                 <v-avatar size="200">
-                  <img src="assets/balthromaw.jpg" alt="Vuetify.js">
+                  <img src="assets/dascaluDragon.png" alt="Vuetify.js">
                 </v-avatar>
               </v-card-text>
               Dr. Sergiu Dascalu
+              <v-card-text>
+                Department of Computer Science and Engineering, University of Nevada Reno
+              </v-card-text>
             </v-flex>
-            <v-flex xs12 sm3 style="text-align: center">
+            <v-flex xs12 sm3 style="text-align: center;  margin: 0 3rem;">
               <v-card-text>
                 <v-avatar size="200">
-                  <img src="assets/leah.jpg" alt="Vuetify.js">
+                  <img src="assets/devrin.jpg" alt="Vuetify.js">
                 </v-avatar>
               </v-card-text>
               Devrin Lee
+              <v-card-text>
+                Computer Science Senior Projects Instructor, University of Nevada Reno
+              </v-card-text>
             </v-flex>
           </v-layout>
         </v-container>
@@ -245,10 +179,13 @@
             <v-flex xs12 sm3 style="text-align: center">
               <v-card-text>
                 <v-avatar size="200">
-                  <img src="assets/balthromaw.jpg" alt="Vuetify.js">
+                  <img src="assets/harris.jpg" alt="Vuetify.js">
                 </v-avatar>
               </v-card-text>
               Dr. Frederick C. Harris
+              <v-card-text>
+                Department of Computer Science and Engineering, University of Nevada Reno
+              </v-card-text>
             </v-flex>
           </v-layout>
         </v-container>
@@ -273,3 +210,11 @@
  </script>
 </body>
 </html>
+<style>
+  body{
+    overflow: hidden;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+</style>
